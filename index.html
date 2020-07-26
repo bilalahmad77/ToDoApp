@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>ToDoApp</title>
+
+
+</head>
+
+<body class="bg-success">
+    
+
+    <div class="text-center w-35" style="padding-left: 20%;padding-right: 20%;">
+        <h2 class="bg-dark mb-0 py-1 mt-5 text-white">To Do App</h2>
+        <div class="bg-warning py-3">
+            <input type="text" placeholder="Enter ToDo" id="to-do-item" class="py-1 mb-2 "
+                onFocus="this.style.backgroundColor='yellow';" onBlur="this.style.backgroundColor='white';">
+            <button onclick="addToDo()" class="btn btn-primary btn py-1 mb-1">Add Item</button>
+            <button onclick="delAll()" class="btn btn-danger btn py-1 mb-1">Delete All</button>
+        </div>
+        <div class="bg-warning">
+            
+            <ul id="list" class=" list-unstyled py-1 text-dark font-weight-bold">
+
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

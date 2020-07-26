@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li:hover{ 
+  color:rgb(255, 0, 0); 
+  margin: 1%; 
+  transition: 1.5s ease; 
+  cursor: pointer; 
+  font-size: large;
+} 
+
+
+
